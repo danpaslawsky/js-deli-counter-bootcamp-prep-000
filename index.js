@@ -21,7 +21,7 @@ function currentLine(line){
   var currentLine = "The line is currently: ";
   if (line.length > 0){
     var katzLine = `${currentLine} ${line}`;
-    return katzLine;
+    return katzLine.upshift(num);
   }
   else{
     return `The line is currently empty.`;
