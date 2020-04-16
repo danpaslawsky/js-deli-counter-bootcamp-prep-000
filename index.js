@@ -25,7 +25,7 @@ function currentLine(line){
    
     
     }
-    return katzLine;
+    return currentLine;
   }
   else{
     return `The line is currently empty.`;
