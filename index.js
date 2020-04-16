@@ -27,9 +27,9 @@ function currentLine(line){
   // }
     
     //}
-    return currentLine;
-  }
-  else{
-    return `The line is currently empty.`;
-  }
+    return line;
+  //}
+  // else{
+  //   return `The line is currently empty.`;
+  // }
 }
